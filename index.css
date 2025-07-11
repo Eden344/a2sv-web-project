@@ -1,0 +1,66 @@
+body{
+    background-color: white;
+
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 160px;
+    margin-bottom: 30px;
+    color: white;
+}
+.todo-container{
+    margin-left: 325px;
+    margin-top: 100px;
+    padding: 25px;
+    background-color: rgba(145, 13, 246, 0.991);
+    width: 480px;
+    height: auto;
+    border-radius: 15px;
+
+}
+
+#taskInput{
+    border-color: black;
+    width: 300px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+#btn{
+    border-width: 0ch;
+    border-radius: 5px;
+    border-color: black;
+    background-color: white;
+    margin-left:40px ;
+    width: 80px;
+    height: 25px
+}
+
+.todo-item{
+    text-align: start;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-style: oblique;
+    list-style: none;
+   
+}
+
+.todo-item button{
+    margin-left: 30px;
+    margin-top: 20px;
+    border-width: 0ch;
+    border-radius: 5px;
+    border-color: black;
+    background-color: white;
+    width: 50px;
+    height: 20px;
+}
+
+hr{
+  border: 1px solid black;
+  width: 500px;
+  margin-left: 0px;
+   
+    
+}
