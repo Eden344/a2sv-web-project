@@ -42,3 +42,6 @@ This is a simple Todo List application built with HTML, CSS, and JavaScript. It 
 ## Author
 - Eden (GitHub: @Eden344)
 
+
+# A2SV project a todo list app done using HTML,CSS and JS
+
