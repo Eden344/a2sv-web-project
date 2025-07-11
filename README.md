@@ -11,7 +11,7 @@ This is a simple Todo List application built with HTML, CSS, and JavaScript. It 
 
 ## How to Run
 1. **Clone the Repository**:
-   - Run `git clone https://github.com/Eden344/A2SV.git` in your terminal.
+   - Run `git clone https://github.com/Eden344/a2sv-web-project.git` in your terminal.
 2. **Open the Project**:
    - Navigate to the project folder: `cd A2SV`.
    - Open `index.html` in a web browser (e.g., Chrome, Firefox).
