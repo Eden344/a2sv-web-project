@@ -1,0 +1,107 @@
+body{
+    background-color: rgba(233, 236, 239, 0.416);
+}
+
+
+.card {
+    background-color: white; 
+  border: 1px solid #d1cece;
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin: 1rem;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 50px;
+  box-shadow: 0 6px 6px #007bff;
+}
+
+.card-title {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.card-description {
+  margin-bottom: 1rem;
+  color: #555;
+}
+
+.card-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.card-button {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.opps{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 400px;
+}
+.details{
+
+    background-color: white; 
+  border: 1px solid #d1cece;
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin-top: 40px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 400px;
+  box-shadow: 0 6px 6px #007bff;
+}
+.detail-btn{
+    margin-top: 1rem;
+  padding: 0.5rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+
+}
+.detail-title{
+    text-align: center;
+}
+
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.loader {
+  border: 6px solid #e0e0e0;
+  border-top: 6px solid #3498db;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+  margin-bottom: 1rem;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.loader-text {
+  font-size: 1.2rem;
+  color: #555;
+}
